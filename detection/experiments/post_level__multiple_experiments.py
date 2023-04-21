@@ -1,3 +1,4 @@
+# this file is copied from https://github.com/NasLabBgu/hate_speech_detection
 import os
 import pandas as pd
 from sklearn.metrics import f1_score, accuracy_score, recall_score, precision_score, auc, roc_curve, balanced_accuracy_score
