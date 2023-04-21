@@ -1,3 +1,4 @@
+# all files in this directory are copied from https://github.com/NasLabBgu/hate_speech_detection
 import logging
 import matplotlib.pyplot as plt
 import os
