@@ -1,3 +1,4 @@
+# this file is copied from https://github.com/NasLabBgu/hate_speech_detection
 from keras.preprocessing.text import Tokenizer
 from keras.utils.data_utils import pad_sequences
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
