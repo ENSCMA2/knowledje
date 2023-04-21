@@ -1,6 +1,7 @@
 import json
 import csv
 
+# transform a json knowledge graph to a tsv
 def transform(kg, out):
     with open(kg) as kg_file:
         info = json.load(kg_file)
@@ -19,6 +20,6 @@ def transform(kg, out):
         writer = csv.writer(o, delimiter = "\t")
         writer.writerows(data)
 
-transform("/n/home04/khalevy/hate_speech_detection/data/post_level/kg.json", "/n/home04/khalevy/hate_speech_detection/data/post_level/kg.tsv")
-
-transform("/n/home04/khalevy/hate_speech_detection/data/post_level/kg2.json", "/n/home04/khalevy/hate_speech_detection/data/post_level/kg2.tsv")
+# change file paths as appropriate on your machine
+transform("../../data/kg.json", "../../data/kg.tsv")
+transform("../../data/kg2.json", "../../data/kg2.tsv")
