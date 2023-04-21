@@ -1,5 +1,5 @@
+# this file is copied from https://github.com/NasLabBgu/hate_speech_detection
 import re
-
 import nltk
 nltk.download('wordnet')
 from nltk import PorterStemmer, WordNetLemmatizer
